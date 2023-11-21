@@ -1,0 +1,196 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins'sans-serif;
+    box-sizing: border-box;
+}
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color:whitesmoke;
+    justify-content:center;
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width:1000px;
+    min-height:1000px;
+    margin: 50px;
+    background:#fff;  
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+     box-shadow: 0 35px 55px rgba(0, 0, 0, 1);  
+}
+.container .leftside-bar{
+    position: relative;
+    background:#003147;
+    padding: 40px;
+   
+}
+.profiletext img{
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+}
+.profiletext {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #FFF;
+}
+.profiletext h2 {
+    color:#fff;
+    font: size 1.5em;
+    margin: top 20px;
+    text-transform: uppercase;
+    text-align:center;
+    font-weight: 600;
+    line-height: 1.4rem;
+ }
+ .profiletext h2 span{
+    font-size: 0.9rem;
+    font-weight:600;
+}
+.contact h2{
+    font-size: larger;
+    color: #FFF;
+    text-transform: uppercase;
+}
+.contact .icons {
+    color: #fff;
+    /* letter-spacing: 5px; */
+    margin-bottom: 10px;
+    border-bottom: 2px solid #FFF;
+    
+}
+.icons ul li {
+    list-style-type: none;
+    margin: 15px;
+    cursor: pointer;
+    
+}
+.icons ul li .icon{
+    color: aqua;
+    
+}
+.education{
+    color: #FFF;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #FFF;
+}
+.education ul li {
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+.launguage {
+    color: #FFF;
+    text-transform: uppercase;
+   
+}
+.launguage h4{
+    margin:5px;
+}
+.launguage  ul  li  {
+    color: #FFF;
+    list-style-type: none;
+}
+.launguage .title5  .percent  {
+    position: relative;
+    width:100%;
+    height:10px;
+    background:#f0f0f0;
+    display:inline-block;
+    margin-bottom:20px;
+} 
+.launguage .title5 .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+
+}
+/*////////////////////////// rightside-bar////////////////////////////////////////////////// */
+.container .rightside-bar{
+    position: relative;
+    background:#fff;
+    padding: 40px;
+}
+.About {
+    margin-bottom: 50px;
+}
+.About :last-child{
+    margin-bottom: 0;
+}
+.title2 {
+    color:black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+h3{
+    color:black;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-family:sans-serif;
+}
+.Academics{
+    color:black;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.title3 h3 {
+    color: black;
+    /* margin-bottom:15px; */
+    text-transform: lowercase;
+}
+.Technicalskills{
+    margin-bottom: 10px;
+    color:black;
+
+}
+.Technicalskills h1 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color:black;
+    
+}
+.Technicalskills ul li {
+   list-style-type: none;
+}
+.Technicalskills ul li span{
+    color:black;
+    font-weight: 300;
+}
+.Technicalskills .title4  .percent  {
+    position: relative;
+    width:100%;
+    height:10px;
+    background:#f0f0f0;
+    display:inline-block;
+    margin-bottom:20px;
+} 
+.Technicalskills .title4 .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+
+}
+
+.content h1 {
+    
+    text-transform: uppercase;
+}
+.content ul li {
+    margin-bottom:10px;
+}
